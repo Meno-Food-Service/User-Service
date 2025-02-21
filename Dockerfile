@@ -17,7 +17,7 @@ COPY . .
 
 
 ENV PYTHONUNBUFFERED=1 \
-    DATABASE_URL="postgresql+asyncpg://ibra:admin123@pg:5432/UserYDB" \
-    RMQ_URL="amqp://ibra:andro12@rabbitmq:5672/" \
+    DATABASE_URL="postgresql+asyncpg://username:password@pg:5432/UserYDB" \
+    RMQ_URL="amqp://username:password@rabbitmq:5672/" \
     REDIS_HOST="redis" \
     REDIS_PORT="6379" \
